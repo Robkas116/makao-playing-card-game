@@ -67,3 +67,31 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# additions to ignore for Visual Studio
+
+
+.vs/
+
+
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+*.tlog/
+*.lastbuildstate
+*.recipe
+*.write.1.tlog
+*.read.1.tlog
+
+[Dd]ebug/
+[Rr]elease/
+x64/
+Win32/
+
+*.ncb
+*.sdf
+*.opensdf
+*.db
+*.ipch/
